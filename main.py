@@ -27,8 +27,8 @@ modelo  = pickle.load(open('modelo.sav', 'rb'))
 
 ## Daqui pra baixo tudo é execultado e carregado sempre que atualizar a API
 app = Flask(__name__)
-app.config['BASIC_AUTH_USERNAME'] = 'Natiele'
-app.config['BASIC_AUTH_PASSWORD'] = '@Lotus25'
+app.config['BASIC_AUTH_USERNAME'] = 'user'
+app.config['BASIC_AUTH_PASSWORD'] = 'senha'
 
 basic_auth = BasicAuth(app)
 
